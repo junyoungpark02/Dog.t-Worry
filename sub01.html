@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>sub01</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1450">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./font/pretendard.css">
+  <link rel="shortcut icon" href="./images/pavicon1.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/sub1.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="header_inner">
+          <h1 class="logo"><img src="./images/logo.png" alt="로고 이미지"></h1>
+          <ul class="nav">
+            <li><a href="#">소개</a>
+                <ul class="sub">
+                    <li><a href="#">Dog't Worry 소개</a></li>
+                    <li><a href="#">오시는길</a></li>
+                    <!--<li><a href="#">샐러드</a></li>
+                    <li><a href="#">아침메뉴</a></li>
+                    <li><a href="#">스마일 썹</a></li>
+                    <li><a href="#">단체메뉴</a></li>-->
+                </ul>
+            </li>
+            <li><a href="#">시설</a>
+                <ul class="sub">
+                    <li><a href="#">전체 배치도</a></li>
+                    <li><a href="#">글램핑 스팟</a></li>
+                    <li><a href="#">운동장</a></li>
+                    <li><a href="#">D't W 커피숍</a></li>
+                    <li><a href="#">D't W 애견용품점</a></li>
+                </ul>
+            </li>
+            <li><a href="#">예약</a>
+                <ul class="sub">
+                    <li><a href="#">예약안내·이용수칙</a></li>
+                    <li><a href="#">실시간 예약</a></li>
+                </ul>
+            </li>
+            <li><a href="#">BBQ & 매점</a>
+                <ul class="sub">
+                    <li><a href="#">소고기 BBQ</a></li>
+                    <li><a href="#">돼지고기 BBQ</a></li>
+                    <li><a href="#">주류 및 음료</a></li>
+                    <li><a href="#">매점</a></li>
+                </ul>
+            </li>
+            <li><a href="#">이벤트</a>
+                <ul class="sub">
+                    <li><a href="#">진행중인 EVENT</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Help</a>
+                <ul class="sub">
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">자주하는 질문</a></li>
+                    <li><a href="#">1:1 Q&A</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div><!--header_inner-->
+      </div><!--header-->
+
+      <div id="intro">
+       <div id="wrapper">
+		<!--탭 메뉴 영역(우리가 실제로 클릭할 부분)
+		각각의 li안에 a태그의 아이디를 가진 tab이 보이는 원리이다.
+		-->
+        <div class="intro_inner">
+		<ul class="tabs">
+			<li class="t1"><a href="#tab1">D't W 소개</a></li>
+			<li class="t2"><a href="#tab2">D't W 오시는길</a></li>
+		</ul>
+        </div>
+
+		<!--탭 콘텐츠 영역(tabs를 눌렀을때 변화할 내용들이 들어있는 곳) 모든 tab내용은, 각각 다른아이디를 갖고 있어야 하고, 같은 tab-content라는 클래스를 가지고 있어야 합니다.-->
+		<div class="tab_container">
+
+			<div id="tab1" class="tab_content">
+                <div class="tab_box">
+                    <!--Content-->
+                    <div class="text_box">
+                    <h1><img src="./images/intro_logo(min).png" alt="로고이미지"></h1>
+                    <h2>
+                        모든 걱정거리가 <br>
+                        사라질 완벽한 시간!
+                    </h2>
+                    <p>
+                        Dog't Worry는 반려견과 함께 할 수 있는 <br> 다양한 공간과 애견시설을 완비하였습니다.<br>
+                        D't W에서 행복한 순간을 경험하시고 특별한 추억을 만드세요!  
+                    </p>
+                    </div><!--text_box-->
+                    <div class="img_box">
+                        <p class="img1">
+                            <img src="./images/intro_banner1.png" alt="소개이미지1">
+                        </p>
+                    </div><!--img_box-->
+                </div><!--tab_box-->
+                <p class="dog1"><img src="./images/intro_dog1.png" alt="강아지 이미지"></p>
+			</div><!--tab1-->
+
+			<div id="tab2" class="tab_content">
+                <div class="tab_box">
+				<!--Content-->
+                <div class="text_box">
+				<h1><img src="./images/intro_logo(min).png" alt="로고이미지"></h1>
+				<h2>
+                    모든 걱정거리가 <br>
+                    사라질 완벽한 시간!
+                </h2>
+                <p>
+                    Dog't Worry는 반려견과 함께 할 수 있는 <br> 다양한 공간과 애견시설을 완비하였습니다.<br>
+                    D't W에서 행복한 순간을 경험하시고 특별한 추억을 만드세요!  
+                </p>
+                </div><!--text_box-->
+                <div class="img_box">
+                    <p class="img1">
+                        <img src="./images/intro_banner2.png" alt="소개이미지1">
+                    </p>
+                </div><!--img_box-->
+            </div><!--tab_box-->
+            <p class="dog1"><img src="./images/intro_dog1.png" alt="강아지 이미지"></p>
+			</div><!--tab2-->
+
+
+		</div><!--tab_container-->
+
+	 </div><!--wrapper-->
+    </div><!--intro-->
+    
+
+
+
+
+
+  <!--스크립트 연결-->
+<script src='./js/jquery-3.6.4.min.js'></script>
+<script src="./js/sub_menu.js"></script>
+<script src="./js/tab.js"></script>
+ 
+    
+</body>
+</html>
